@@ -1,0 +1,645 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ACTUAL CODE STARTS HERE */
+
+* {
+	box-sizing: border-box;
+}
+
+.intro {
+	height: 970px;
+	font-family: Rockwell;
+	font-weight: ;
+	font-size: 64px;
+	color: #4A4A4A;
+	text-align: center;
+	background-image: url('banner.png'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top -110px center;
+}
+.head {
+	padding-top: 40px;
+	font-family: 'Helvetica Neue';
+}
+.lines {
+	height: 12px;
+	width: 528px;
+	margin: 12px auto;
+	border-top: 1px solid #CCAB81;
+	border-bottom: 1px solid #CCAB81;
+}
+.neck {
+	font-size: 36px;
+	font-family: Rockwell;
+}
+.skills {
+	color: #4A4A4A;
+}
+
+.black {
+	color: black;
+}
+.press {
+	display: inline-block;
+	font-family: Rockwell;
+	font-size: 24px;
+	text-decoration: none;
+	color: #4A4A4A;
+	background-color: #FFD6A1;
+	border-radius: 3px;
+	margin: 60px 0;
+	padding: 17px 116px 17px 116px;
+}
+.web-dev {
+	background-color: black;
+	text-align: center;
+}
+.develop {
+	color: white;
+	padding: 50px 0px 50px 0px;
+
+}
+.album {
+	text-align: center;
+	display: inline-block;
+	margin: 0 100px;
+}
+.photo {
+	margin: 25px 35px;
+}
+.no-top {
+	margin-top: 0px;
+}
+.hook {
+	margin: 50px 0px 10px 0px;
+	font-size: 20px;
+	font-family: 'Helvetica Neue';
+	font-weight: 200;
+	color: #E6E6E6;
+}
+.photography {
+	text-align: center;
+	position: relative;
+}
+.photographs {
+	position: absolute;
+	right: 0;
+	left: 0;
+	color: black;
+	padding: 50px 0px 50px 0px;
+
+}
+.mom-dan {
+	height: 796px;
+	width: 400px;
+	display: inline-block;
+	background-image: url(leftMOMDAN.png);
+}
+.me-guitar {
+	height: 796px;
+	width: 400px;
+	display: inline-block;
+	background-image: url(middleMEGUITAR.png);
+}
+.rocks-pier {
+	height: 796px;
+	width: 400px;
+	display: inline-block;
+	background-image: url(rightROCKPIER.png);
+}
+.list {
+	text-align: center;
+	position: relative;
+}
+.categories {
+	color: #6B6B6B;
+	display: inline-block;
+	text-align: center;
+	padding: 50px 120px 50px 120px;
+	width: 418px;
+}
+.minis {
+	width: 1088px;
+	display: inline-block;
+	margin: 0 176px;
+}
+.mini-pic {
+	padding: 10px;
+}
+.arrow {
+	color: black;
+}
+.arrow:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '';
+	width: 50px;
+	height: 50px;
+	color: pink;
+}
+.snaps {
+	color: #4A4A4A;
+}
+.in-touch {
+	text-align: center;
+	padding: 40px 0;
+}
+.conclusion {
+	background-color: #BCD8C1;
+	font-family: 'Helvetica Neue';
+	font-size: 20px;
+	position: relative;
+}
+.bottom-nav {
+	font-weight: 200;
+	color: #4A4A4A;
+	padding-left: 210px;
+	display: inline-block;
+}
+.items {
+	display: inline-block;
+	padding: 28px 30px 30px 0px;
+	text-decoration: none;
+}
+.copyright {
+	color: #9E9E9E;
+	font-weight: 100;
+	display: inline-block;
+	position: absolute;
+	right: 160px;
+	top: 30px;
+}
+.bot-nav-a {
+	text-decoration: none;
+	color: #4a4a4a;
+	transition: color .2s ease-out;
+}
+.bot-nav-a:hover {
+	color: #DD6820;
+}
+
+
+/*---------------------ABOUT PAGE CSS----------------------*/
+/*---------------------ABOUT PAGE CSS----------------------*/
+/*---------------------ABOUT PAGE CSS----------------------*/
+/*---------------------ABOUT PAGE CSS----------------------*/
+/*---------------------ABOUT PAGE CSS----------------------*/
+/*---------------------ABOUT PAGE CSS----------------------*/
+.about-head-holder {
+	text-align: center;
+	display: block;
+	font-family: Rockwell;
+	font-variant: small-caps;
+	color: #4A4A4A;
+	font-weight: 200;
+	font-size: 60px;
+	position: relative;
+	background-color: #3D9970;
+}
+.about-page-head {
+	width: 250px;
+	padding: 20px;
+	position: relative;
+	margin: 0 auto;
+	height: 145px;
+	text-shadow: 0px 3px 1px rgba(0, 0, 0, .4);
+}
+
+/*----------- A pseudo elements start -----------*/
+
+.about-page-head:before {
+	content: '';
+	position: absolute;
+	width: 42px;
+	height: 50px;
+	border-radius: 1px;
+	background-color: #4a4a4a;
+	left: 168px;
+	top: 76px;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, .4);
+
+}
+.about-page-head:after {
+	content: '';
+	position: absolute;
+	width: 42px;
+	height: 10px;
+	border-radius: 1px;
+	background-color: #4a4a4a;
+	left: 168px;
+	top: 16px;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, .4);
+
+}
+
+/*----------- A pseudo elements end -----------*/
+
+/*----------- T pseudo elements start -----------*/
+.pseudo:before {
+	content: '';
+	position: absolute;
+	width: 42px;
+	height: 50px;
+	border-radius: 1px;
+	background-color: #4a4a4a;
+	left: 44px;
+	top: 76px;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, .4);
+
+}
+.pseudo:after {
+	content: '';
+	position: absolute;
+	width: 42px;
+	height: 10px;
+	border-radius: 1px;
+	background-color: #4a4a4a;
+	left: 44px;
+	top: 16px;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, .4);
+
+}
+
+/*----------- T pseudo elements end -----------*/
+
+.about-page-neck {
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	line-height: 40px;
+	color: #4a4a4a;
+	width: 400px;
+	text-align: center;
+	font-size: 40px;
+	padding: 20px 0px 20px 10px;
+	margin: 20px auto;
+	line-height: 50px;
+}
+.develop-two {
+	font-family: Rockwell;
+	font-weight: 700;
+	font-size: 40px;
+	color: #F2777A 		;
+	font-size: 40px;
+	vertical-align: bottom;
+}
+.i {
+	font-family: Tacoma;
+	font-weight: 700;
+}
+.typewriter {
+	font-family: monospace;
+	color: #CC99CC;
+}
+.adrian-type {
+	font-family: Rockwell;
+	color: #99CC99;
+	font-weight: 700;
+	font-size: 40px;
+}
+.bod-container {
+	overflow: hidden;
+}
+.bod {
+	text-align: center;
+	display: block;
+	margin-top: 80px;
+	height: 90px;
+	margin-left: -400px;
+	margin-right: -400px;
+}
+.squarespace {
+	width: 0px;
+	height: 0px;
+	color: limegreen;
+	border-top: 46px solid transparent;
+	border-right: 46px solid #DD6820;
+	border-bottom: 46px solid #E09600;
+	border-left: 46px solid #E09600;
+	display: inline-block;
+	transition: border .5s ease;
+}
+.squarespace:hover {
+	border-top: 46px solid transparent;
+	border-right: 46px solid #849483;
+	border-bottom: 46px solid #C7F2A7;
+	border-left: 46px solid #4E937A;
+
+}
+.information-holder {
+	display: inline-block;
+	text-align: center;
+	width: 80%;
+	margin: 0 10%;
+	background-color: #4a4a4a;
+	box-shadow: 0px -3px 0px rgba(0, 0, 0, .5);
+}
+.inform {
+	font-family: Rockwell;
+	margin-top: 20px;
+	font-size: 40px;
+	color: #F99157;
+	text-shadow: 0px 1px 1px #251309;
+}
+.information {
+	text-align: left;
+	width: 90%;
+	height: 460px;
+	margin: 60px auto;
+	margin-top: 30px;
+	background: #3D9970;
+
+}
+.info {
+	width: 95%;
+	margin: 0 auto;
+}
+.property:first-child {
+	padding-top: 30px;
+}
+.property {
+	font-family: Rockwell;
+	font-size: 28px;
+	color: #4a4a4a;
+	padding-left: 20px;
+}
+.value {
+	font-family: Rockwell;
+	font-size: 32px;
+	color: white;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.knee-mail {
+	color: white;
+
+}
+/*---------------------CONTACT PAGE CSS----------------------*/
+/*---------------------CONTACT PAGE CSS----------------------*/
+/*---------------------CONTACT PAGE CSS----------------------*/
+/*---------------------CONTACT PAGE CSS----------------------*/
+/*---------------------CONTACT PAGE CSS----------------------*/
+/*---------------------CONTACT PAGE CSS----------------------*/
+.contact-bg {
+	background-image: url(redwood-small.jpg);
+	background-size: cover;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -78px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 78px; 
+}
+
+.align {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 90px;
+}
+.fill-me-out {
+	display: inline-block;
+	background: gray;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 6px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
+}
+.face {
+	margin: 10px;
+	font-size: 20px;
+	padding-left: 40px;
+	width: 750px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	display: block;
+	background-color: #4A4A4A;
+	border: 1px solid dimgray;
+	border-radius: 3px;
+}
+.form {
+	margin: 20px 10px 10px 10px;
+}
+.button {
+	display: inline-block;
+	background-color: #3FC087;
+	color: #4a4a4a;
+	text-shadow: 0px 1px 0px #31F099;
+	border-radius: 3px;
+	width: 750px;
+	font-family: 'Helvetica Neue';
+	font-weight: 800;
+	font-size: 25px;
+	line-height: 40px;
+	text-decoration: none;
+	margin: 10px auto;
+}
+.domface {
+	height: 500px;
+	width: 100%;
+	background-color: #4A4A4A;
+}
+.message-box {
+	height: 200px;
+	line-height: 33px;
+}
+.input-group {
+	position: relative;
+	font-size: 22px;
+} 
+.icon {
+	width: 30px;
+	height: 30px;
+	color: white;
+	z-index: 9000;
+	position: absolute;
+	left: 16px;
+	top: 10px;
+}
+.plane {
+	width: 30px;
+	height: 30px;
+	color: #4a4a4a;
+	z-index: 9000;
+	position: absolute;
+	left: 310px;
+	top: 20px;
+}
+/*---------------------Square-Game-Page-CSS----------------------*/
+/*---------------------Square-Game-Page-CSS----------------------*/
+/*---------------------Square-Game-Page-CSS----------------------*/
+/*---------------------Square-Game-Page-CSS----------------------*/
+/*---------------------Square-Game-Page-CSS----------------------*/
+
+.buttons {
+	text-align: center;
+}
+.margeen {
+
+}
+.word {
+	line-height: 80px;
+	font-size: 40px;
+	font-family: Rockwell;
+	background: #3D9970;
+	color: #4a4a4a;
+	text-shadow: 0px 1px 0px #58DA9F;
+	margin-bottom: 30px;
+}
+.squares {
+	width: 99%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5%;
+}
+.square {
+	width: 20%;
+	height: 150px;
+	background: #323;
+	border-radius: 4px;
+	display: inline-block;
+	margin-left: 2%;
+	margin-bottom: 20px;
+	position: relative;
+}
+.square:nth-child(4n+1) {
+	margin-left: 0;
+}
+.square.active {
+	background: #FF4D4D;
+	z-index: 9000;
+}
+.home-from-square {
+	position: relative;
+	width: 150px;
+	line-height: 30px;
+	background: #3D9970;
+	font-family: Rockwell;
+	color: #4a4a4a;
+	font-size: 30px;
+	text-shadow: 0px 1px 0px #58DA9F;
+	border-left: 1px solid #58DA9F;
+	border-right: 1px solid #58DA9F;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	z-index: 9000;
+}
+.home-from-square:before {
+	content: '';
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	left: -31px;
+	top: -1px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid #2D8B61;
+	border-top: 15px solid #2D8B61;
+	border-bottom: 15px solid #2D8B61;
+}
+.home-from-square:after {
+	content: '';
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	right: -31px;
+	top: -1px;
+	border-left: 15px solid #2D8B61;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #2D8B61;
+	border-bottom: 15px solid #2D8B61;
+}
+.instruction-container {
+	text-align: center;
+	margin-top: 50px;
+}
+.instructions {
+	padding: 20px 40px;
+	display: inline-block;
+	width: 600px;
+	font-family: 'Helvetica Neue';
+	font-weight: 500;
+	line-height: 30px;
+	border-radius: 5px;
+	color: #4a4a4a;
+	text-shadow: 0px 1px 0px #ECECEC;
+	background: #D5D5D5;
+	text-align: left;
+}
+.how {
+	font-size: 37px;
+	padding-bottom: 25px;
+}
+.power-case {
+	font-size: 40px;
+	text-align: right;
+	padding-right: 30px;
+}
+.power {
+	color: #4a4a4a;
+	cursor: pointer;
+}
+.gray {
+	background: #4a4a4a;
+}
+.lighten-up {
+	color: gray;
+}
